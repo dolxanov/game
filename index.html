@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+       
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    td {
+        height: 100px;
+        width: 100px;
+        text-align: center;
+    }
+    .box{
+       padding: 20px;
+       background-color: #fff;
+        margin-right: 50px;
+    }
+    .figure{
+        background-color: rgb(41, 134, 240);
+        border-radius: 5px;
+        margin-bottom: 10px;
+        padding: 5px;
+        font-size: 30px;
+        text-align: center;
+        color: white;
+        font-weight: 600;
+}
+.btn{
+    cursor: pointer;
+    margin: 0 10px;
+    background-color: green;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+</style>
+
+
+<body>
+
+<div class="box">
+    <div id="div1" class="figure">0</div>
+    <button onclick="start()" class="btn">Start</button>
+    <button onclick="stop()" class="btn">Stop</button>
+</div>
+
+
+
+    <table id="tbl" border="1"></table>
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
